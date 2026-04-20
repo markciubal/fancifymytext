@@ -30,6 +30,6 @@ boringRadio.addEventListener("change", function() {
 }); 
 
 moo.addEventListener("click", function() {
-    let text = inputText.value.split("\.").join("-Moo.");
+    let text = inputText.value.toUpperCase().split("\.").join("-Moo.");
     inputText.value = text;
 });
